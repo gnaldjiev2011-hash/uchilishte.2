@@ -25,13 +25,6 @@ import zlib
 
 import numpy as np
 import streamlit as st
-from PIL import Image, ImageOps
-from sklearn.datasets import load_digits
-from sklearn.ensemble import ExtraTreesClassifier, VotingClassifier
-from sklearn.exceptions import ConvergenceWarning
-from sklearn.model_selection import train_test_split
-from sklearn.neural_network import MLPClassifier
-from sklearn.svm import SVC
 
 warnings.filterwarnings("ignore", category=ConvergenceWarning)
 
