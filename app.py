@@ -26,7 +26,6 @@ import zlib
 import numpy as np
 import streamlit as st
 from PIL import Image, ImageOps
-from scipy import ndimage as ndi
 from sklearn.datasets import load_digits
 from sklearn.ensemble import ExtraTreesClassifier, VotingClassifier
 from sklearn.exceptions import ConvergenceWarning
